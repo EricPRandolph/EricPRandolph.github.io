@@ -1,6 +1,6 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
-summary: Embed videos, podcasts, code, LaTeX math, and even test students!
+title: 👩🏼‍🏫 Strikepoint V1 - 4WD Vertical Spinner
+summary: 12lb Combat Robot
 date: 2023-10-24
 math: true
 tags:

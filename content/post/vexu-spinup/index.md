@@ -1,7 +1,6 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: 🧠 VexU - Spin Up 2022-2023
+summary: VexU Robotics Competition; 8-2 at the World Championship in Qualifiers
 tags:
   - Second Brain
   - Markdown

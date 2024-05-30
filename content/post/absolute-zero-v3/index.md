@@ -1,6 +1,6 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
+title: 📈 Absolute Zero V3
+summary: 3lb Beetleweight Combat Robot
 date: 2023-10-26
 tags:
   - Hugo
