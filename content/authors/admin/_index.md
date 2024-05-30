@@ -1,6 +1,6 @@
 ---
 # Display name
-title: ''
+title: 'Eric Randolph'
 
 # Name pronunciation (optional)
 name_pronunciation: ''

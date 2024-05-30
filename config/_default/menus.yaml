@@ -7,9 +7,6 @@ main:
   - name: About Me
     url: /
     weight: 10
-  - name: Projects
-    url: /#papers
-    weight: 11
   - name: CAD Portfolio
     url: /#talks
     weight: 12
