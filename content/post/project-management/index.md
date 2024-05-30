@@ -1,6 +1,6 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+title: ✅ Combat Robotics Test Box
+summary: Personal test box for combat robots up to 3lbs, fitted with lights, toggle clamps, and a camera mount
 date: 2023-10-23
 tags:
   - Wowchemy

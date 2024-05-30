@@ -1,5 +1,5 @@
 ---
-title: 📈 Absolute Zero V3
+title: 📈 Absolute Zero V3 - 4WD Vertical Spinner
 summary: 3lb Beetleweight Combat Robot
 date: 2023-10-26
 tags:
