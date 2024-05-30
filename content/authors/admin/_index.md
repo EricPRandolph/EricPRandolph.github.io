@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: ''
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Eric
+last_name: Randolph
 
 # Status emoji
 status:
@@ -20,44 +20,37 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Fourth-Year Mechanical Engineering Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Worcester Polytechnic Institute
+    url: https://wpi.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:eprandolph@wpi.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://www.instagram.com/ericrandolph_
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/eprandolph/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Additive Manufacturing
+  - Combat Robotics
+  - Design for Military Applications
+  - Computer-Aided Design
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: B.S. Mechanical Engineering
+    institution: Worcester Polytechnic Institute
+    date_start: 2021-08-25
+    date_end: 2025-05-04
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Expected May 2025
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -69,20 +62,13 @@ education:
       GPA: 3.8/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Fluid Mechanics
+      - Materials Processing
+      - Linear Algebra
+      - Differential Equations
+      - Engineering Experimentation
+      - Heat Transfer
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -183,4 +169,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Fourth-Year Mechanical Engineering student at Worcester Polytechnic Institute. My career interests include additive manufacturing, defense, and general mechanical design work. I am the Treasurer of the WPI Combat Robotics club, one of the most prestigious collegiate combat robotics organizations in the country, and develop combat robots at the 3lb, 12lb, and 30lb weight classes (think, Battlebots but at a smaller scale).
