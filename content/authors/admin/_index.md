@@ -51,15 +51,6 @@ education:
     date_end: 2025-05-04
     summary: |
       Expected May 2025
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
       Courses included:
       - Fluid Mechanics
@@ -101,19 +92,19 @@ skills:
     items:
       - name: SOLIDWorks
         description: 'CSWP Certification'
-        percent: 80
+        percent: 70
         icon: code-bracket
       - name: Autodesk Inventor
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-bar
       - name: Autodesk Fusion 360
         description: ''
-        percent: 40
+        percent: 75
         icon: circle-stack
       - name: PTC Onshape
         description: ''
-        percent: 40
+        percent: 85
         icon: circle-stack  
   - name: Custom Manufacturing
     color: '#eeac02'
@@ -121,11 +112,11 @@ skills:
     items:
       - name: Additive Manufacturing
         description: ''
-        percent: 60
+        percent: 85
         icon: person-simple-walk
       - name: CNC Milling/Turning
         description: ''
-        percent: 100
+        percent: 70
         icon: cat
       - name: Laser Cutting
         description: ''
@@ -133,7 +124,7 @@ skills:
         icon: camera
       - name: Wire EDM
         description: ''
-        percent: 80
+        percent: 55
         icon: camera  
   - name: Miscellaneous
     color: '#eeac02'
@@ -141,15 +132,15 @@ skills:
     items:
       - name: GD&T
         description: ''
-        percent: 60
+        percent: 75
         icon: person-simple-walk
       - name: Design For Manufacturability and Assembly
         description: ''
-        percent: 100
-        icon: cat
-      - name: MATLAB
-        description: ''
         percent: 80
+        icon: cat
+      - name: Soldering
+        description: ''
+        percent: 85
         icon: camera
       - name: Microsoft Suite
         description: ''
