@@ -30,127 +30,37 @@ Front-End: Grade 5 Titanium Flaps
 
 Absolute Zero V3 was designed in Onshape using a series of master sketches and a Multi-Part Part Studio which controls all of the critical geometry of the robot, and allowed me to easily have all of the robot's components reference geometry either from the master sketches using the Derive Tool, or reference geometry on other parts of the robot.
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
-
-Demo:
-
-{{< chart data="line-chart" >}}
-
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
 
 ## Material Selection and Design Philosophy
 
-Wowchemy supports the _Mermaid_ Markdown extension for diagrams.
+Material selection depended on both desired properties and desired failure modes. For example, when it comes to outer armor, choosing a more brittle filament such as PLA would result in the armor shattering on impacts, which is not a desireable outcome. On the other hand, metals like steel are extremely strong at the cost of being very heavy for a 3lb weight class, and would be difficult to reasonably get in-weight.
 
-An example **flowchart**:
+The answer to this problem is TPU, a flexible thermoplastic. It is one of the most prevalent printed materials in combat robotics (outside of plastic antweights, which typically ban it) due to its strong layer adhesion, durability, strength, and tendency to be cut/scraped instead of shatter when hit. Being able to print the majority of the robot also allows for rapid prototyping of components and geometries that would typically not be machineable through methods like milling or waterjetting. As shown below, my outer armor held up extremely well in practice, only taking damage in the form of some scrapes and cuts.
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
+[Insert those images here]
 
-renders as
+I would experience a lot of problems if the entire robot was made out of TPU, however. Given that there are multiple belt runs from motors to driven components, the entire robot flexing would causes a lot of issues with friction and inconsistent center-to-center distances between the components. For this reason, the robot's structure is primarily held together by two parallel 2mm carbon fiber plates. These plates screw into the major chassis components from both top and bottom, including the weapon rails, drive rails, outer armor, and weapon divider separating the weapon motor from the robot's internals. These plates allow the robot to maintain a rigid chassis in spite of the numerous TPU chassis components.
 
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+[Insert CF Pictures]
 
-An example **sequence diagram**:
+The drive and weapon rails used to be TPU with titanium inserts for rigidity, but I have since switched to use 3/8" UHMW. These UHMW rails are lightweight, strong, and can't fail along layer lines like a printed component. 3/8" cuts it close in terms of "what will bend and what wont" in competitions, but I have only so far experienced bending on the thinner "ears" of the robot that stick up past the weapon and allow me to drive while inverted.
 
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
+[Insert Rail Pictures]
 
-renders as
+In some special cases, I chose to use CF-Nylon filament, nylon reinforced with carbon fiber. While a pain to print (and typically needs active drying), it is an extremely strong filament when properly printed. On this iteration of the robot, the cf-nylon components are the pulley bolted to the weapon motor and the weapon divider. I have used the same weapon pulley across more than one event without having to change out the print, and it is resistant to melting unlike a TPU pulley, which I once had fuse to the weapon rail across from it due to heat.
 
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
+[Insert CF-Nylon Picture]
 
-An example **class diagram**:
+There are a few instances where I use thin aluminum plates to add rigidity, or in the case of my drive system to facemount the drive motors to the drive rails. Across the back of my weapon rails is a 0.0625" 6061 aluminum plate which I refer to as a "stiffener plate." The plate connects the two rails across the back to add rigidity to the weapon system and make sure it does not flex excessively on big hits. Given the low clearance between my weapon motor pulley and the inner wall of the weapon rail, excess flexing could potentially cause the motor to stop spinning.
 
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
+[Insert Stiffener Plate Picture]
 
-renders as
+On the weapon itself, the impactors (or disks, blades, etc.) are made out of AR500 steel. Given that they are the parts actually dealing damage to my opponent, I want them to be as hard as possible without risking shattering. If the blades were softer than the material I was hitting, the blade would get chipped away more than it would be damaging other people. Numerous competitiors have started implementing AR600 instead, an even harder alternative.
 
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
+[Insert Disk Picture]
 
-An example **state diagram**:
+Now, we can take a closer look at each of the different components of the robot, why I chose to design them the way they are, and how they work.
 
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
 
 ## Chassis
 
