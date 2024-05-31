@@ -8,7 +8,7 @@ design:
   # Default section spacing
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ['50px', '50px', '50px', '50px']
+    padding: ['20px', '20px', '20px', '20px']
 
 sections:
   - block: resume-biography-3
