@@ -17,10 +17,15 @@ Absolute Zero is a four-wheel-drive beetleweight combat robot which utilizes a "
 Colloquially, Absolute Zero (AZ) is considered a "4WD Vertical Spinner." Kinetic weapons are usually referred to by the direction they spin, with vertical spinners spinning upwards and horizontal spinners spinning sideways. I'll avoid going into too much robot detail here given that everything is explained further down in this post, so to go over some of the important features:
 
 Power: 4S 1100mAh Li-HV Battery (16.8V)
+
 Electronics: 50A Weapon ESC, 25A Drive ESCs, Fingertech Power Switch, Radiomaster R84 V2 Receiver 
+
 Drive: 4WD, 1.875" Urethane Wheels
+
 Chassis: 95A TPU, 3/8" UHMW, 2mm Carbon Fiber, 0.0625" 6061-Aluminum
+
 Weapon: AR500 Vertical Drisk (Dual Disk), 350 MPH Theoretical Tip Speed
+
 Front-End: Grade 5 Titanium Flaps
 
 Absolute Zero V3 was designed in Onshape using a series of master sketches and a Multi-Part Part Studio which controls all of the critical geometry of the robot, and allowed me to easily have all of the robot's components reference geometry either from the master sketches using the Derive Tool, or reference geometry on other parts of the robot.
