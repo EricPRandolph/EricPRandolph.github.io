@@ -70,63 +70,92 @@ education:
       - Heat Transfer
 
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Technical Assistant - Transportation Division
+    company_name: CME Associates
+    company_url: 'https://www.cmeusa1.com/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-07-01
+    date_end: '2023-08-28'
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      Responsibilities included:
+      - Drafted road construction plans for road work using Autodesk Civil 3D
+      - Documented road conditions in the field
+      - Analyzed typical road cross sections to determine correct storm drainage and placement of swales
+  - position: Teaching Assistant / Peer-Learning Assistant
+    company_name: WPI ME1800 
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-10-01
+    date_end: 2023-08-26
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Taught the laboratory section of WPI’s Manufacturing Science, Prototyping, and Computer-Controlled Machining course
+        - CNC milling and turning, machine laboratory safety, computer-aided manufacturing
+      - Administered and graded the ME1800 final practical exams and assignments
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Computer-Aided Design
     items:
-      - name: Python
-        description: ''
+      - name: SOLIDWorks
+        description: 'CSWP Certification'
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Autodesk Inventor
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Autodesk Fusion 360
         description: ''
         percent: 40
         icon: circle-stack
-  - name: Hobbies
+       - name: PTC Onshape
+        description: ''
+        percent: 40
+        icon: circle-stack  
+  - name: Custom Manufacturing
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Additive Manufacturing
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: CNC Milling/Turning
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Laser Cutting
         description: ''
         percent: 80
         icon: camera
-
+      - name: Wire EDM
+        description: ''
+        percent: 80
+        icon: camera  
+  - name: Miscellaneous
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: GD&T
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Design For Manufacturability and Assembly
+        description: ''
+        percent: 100
+        icon: cat
+      - name: MATLAB
+        description: ''
+        percent: 80
+        icon: camera
+      - name: Microsoft Suite
+        description: ''
+        percent: 80
+        icon: camera  
+        
 languages:
   - name: English
     percent: 100
