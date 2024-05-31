@@ -111,7 +111,7 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
-       - name: PTC Onshape
+      - name: PTC Onshape
         description: ''
         percent: 40
         icon: circle-stack  
@@ -155,7 +155,7 @@ skills:
         description: ''
         percent: 80
         icon: camera  
-        
+
 languages:
   - name: English
     percent: 100
